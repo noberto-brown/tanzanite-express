@@ -7,9 +7,9 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyBftcxIflTGIDHTVgg6D17xpG_RV4n2ka8",
-  authDomain: "kilimanjaro-express.firebaseapp.com",
-  projectId: "kilimanjaro-express",
-  storageBucket: "kilimanjaro-express.appspot.com",
+  authDomain: "tanzanite-express.firebaseapp.com",
+  projectId: "tanzanite-express",
+  storageBucket: "tanzanite-express.appspot.com",
   messagingSenderId: "773049842430",
   appId: "1:773049842430:web:ca02f7f311fc2e6ee803af",
   measurementId: "G-560053VCE2"

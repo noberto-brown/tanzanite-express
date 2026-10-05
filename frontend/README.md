@@ -1,11 +1,11 @@
-# Kilimanjaro Express
+# Tanzanite Express Frontend
 
-Kilimanjaro Express is a learning project that explores the experience of booking bus tickets online. The name is a placeholder used for the app and does not represent a real company or commercial service.
+This directory contains the React and Vite client for the combined Tanzanite Express bus booking project. It communicates with the Express API in [`../backend`](../backend) through the `VITE_BASE_URL` environment variable. For the project-wide architecture and setup, see the [root README](../README.md).
 
 The application is designed around two roles:
 
 - **Passengers** can search for available journeys, select seats, make bookings, view trips, and continue through a payment flow.
-- **Operators** can manage buses and routes, register new services, and review bookings through protected administration screens.
+- **Operators** can manage buses and routes, register new services, and review bookings through administration screens.
 
 This project was built as a practical way to learn and demonstrate React application development, client-side routing, authentication flows, API integration, state management, and responsive interface design.
 
@@ -45,15 +45,15 @@ This project was built as a practical way to learn and demonstrate React applica
 ### Installation
 
 ```bash
-git clone <repository-url>
-cd kilimanjaro-frontend
+cd Tanzanite-Express/frontend
 npm install
+cp .env.example .env
 ```
 
 Create a `.env` file in the project root and provide the backend API base URL:
 
 ```env
-VITE_BASE_URL=http://localhost:3000
+VITE_BASE_URL=http://localhost:8080
 ```
 
 Start the development server:
@@ -62,7 +62,7 @@ Start the development server:
 npm run dev
 ```
 
-The app will be available at the local URL printed by Vite.
+Start the backend separately from the [`backend/`](../backend) directory before using booking, management, or payment features. The app will be available at the local URL printed by Vite.
 
 ## Available Scripts
 
@@ -86,9 +86,13 @@ src/
 └── services/     External service integrations
 ```
 
+## Relationship to the Backend
+
+The frontend is only the client application. The backend provides the REST endpoints for authentication, buses, routes, reservations, and payment integrations. Run both applications when developing the complete project.
+
 ## Project Scope
 
-Kilimanjaro Express is an independent educational project created for portfolio and learning purposes. It is not affiliated with a bus company, and the branding, data, and workflows are illustrative.
+Tanzanite Express is an independent educational project created for portfolio and learning purposes. It is not affiliated with a bus company, and the branding, data, and workflows are illustrative.
 
 ## License
 

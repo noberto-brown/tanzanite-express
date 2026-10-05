@@ -1,7 +1,7 @@
 {
-  "name": "kilimanjaro-express",
+  "name": "tanzanite-express",
   "version": "1.0.0",
-  "description": "An online bus booking app for Kilimanjaro Express",
+  "description": "An online bus booking app for Tanzanite Express",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -11,7 +11,7 @@ const sendTicket = async (data) => {
     const options = {
       to: [data.phoneNo],
       message:data.msg,
-      from: "KILIMANJARO EXPRESS"
+      from: "TANZANITE EXPRESS"
     };
     const res = await sms.send(options);
     return res;

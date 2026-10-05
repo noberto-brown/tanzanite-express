@@ -1,6 +1,6 @@
-# Kilimanjaro Express API
+# Tanzanite Express Backend API
 
-An Express and MongoDB REST API for an online bus ticket booking application. The project was built for learning purposes to explore backend development, REST API design, MongoDB relationships, JWT authentication, payment integration, and SMS notifications.
+This directory contains the Express and MongoDB REST API for the combined Tanzanite Express bus booking project. The React client is in [`../frontend`](../frontend), and its API base URL should point to this service. For the project-wide architecture and setup, see the [root README](../README.md).
 
 ## Features
 
@@ -50,8 +50,7 @@ An Express and MongoDB REST API for an online bus ticket booking application. Th
 ### Installation
 
 ```bash
-git clone <your-repository-url>
-cd Kilimanjaro-Express
+cd Tanzanite-Express/backend
 npm install
 cp .env.example .env
 ```
@@ -62,7 +61,7 @@ Update `.env` with your local configuration, then start the API:
 npm start
 ```
 
-The server listens on `http://localhost:8080` by default, or on the port configured by `PORT`.
+The server listens on `http://localhost:8080` by default, or on the port configured by `PORT`. Set `frontend/.env` to the same address, for example `VITE_BASE_URL=http://localhost:8080`, before starting the client.
 
 ### Environment Variables
 
@@ -118,7 +117,7 @@ Example bus request:
 
 ```json
 {
-  "name": "Kilimanjaro Express 01",
+  "name": "Tanzanite Express 01",
   "plate": "T 123 ABC",
   "seats": 45,
   "type": "Luxury",
@@ -214,7 +213,7 @@ Common status codes include `201` for created resources, `200` for successful re
 
 ## Learning Project Notes
 
-This is a portfolio and learning project rather than a production-ready booking platform. The repository does not currently include automated tests, and the admin authentication middleware is present but not enabled on the management routes. A production version would also need stronger request validation, protected webhook verification, transaction-safe seat locking, payment idempotency, rate limiting, structured logging, and a deployment configuration.
+This is a portfolio and learning project rather than a production-ready booking platform. The combined repository does not currently include automated tests, and the admin authentication middleware is present but not enabled on the management routes. A production version would also need stronger request validation, protected webhook verification, transaction-safe seat locking, payment idempotency, rate limiting, structured logging, and a deployment configuration.
 
 ## License
 
