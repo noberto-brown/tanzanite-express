@@ -1,0 +1,17 @@
+module.exports = {
+  register: require("./admin/register"),
+  login: require("./admin/login"),
+  postRoute: require("./route/createRoute"),
+  updateRoute: require("./route/updateRoute"),
+  fetchRoutes: require("./route/fetchRoutes"),
+  deleteRoute: require("./route/deleteRoute"),
+  getBuses: require("./bus/fetchBuses"),
+  postBus: require("./bus/createBus"),
+  putBus: require("./bus/updateBus"),
+  deleteBus: require("./bus/deleteBus"),
+  postReservation: require("./reservation/postReservation"),
+  deleteReservation: require("./reservation/deleteReservation"),
+  getPaymentPartners: require("./payment/getPaymentPartners"),
+  azampesaWebhook: require("./payment/callback"),
+  getReservations: require("./reservation/fetchReservaions"),
+};

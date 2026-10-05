@@ -1,0 +1,142 @@
+{
+  "seats": [
+    { "value": "A1", "label": "A1" },
+    { "value": "A2", "label": "A2" },
+    { "value": "A3", "label": "A3" },
+    { "value": "A4", "label": "A4" },
+    { "value": "B1", "label": "B1" },
+    { "value": "B2", "label": "B2" },
+    { "value": "B3", "label": "B3" },
+    { "value": "B4", "label": "B4" },
+    { "value": "C1", "label": "C1" },
+    { "value": "C2", "label": "C2" },
+    { "value": "C3", "label": "C3" },
+    { "value": "C4", "label": "C4" },
+    { "value": "D1", "label": "D1" },
+    { "value": "D2", "label": "D2" },
+    { "value": "D3", "label": "D3" },
+    { "value": "D4", "label": "D4" },
+    { "value": "D5", "label": "D5" },
+    { "value": "E1", "label": "E1" },
+    { "value": "E2", "label": "E2" },
+    { "value": "E3", "label": "E3" },
+    { "value": "E4", "label": "E4" },
+    { "value": "F1", "label": "F1" },
+    { "value": "F2", "label": "F2" },
+    { "value": "F3", "label": "F3" },
+    { "value": "F4", "label": "F4" },
+    { "value": "G1", "label": "G1" },
+    { "value": "G2", "label": "G2" },
+    { "value": "G3", "label": "G3" },
+    { "value": "G4", "label": "G4" },
+    { "value": "H1", "label": "H1" },
+    { "value": "H2", "label": "H2" },
+    { "value": "H3", "label": "H3" },
+    { "value": "H4", "label": "H4" },
+    { "value": "H5", "label": "H5" }
+  ],
+  "footer": {
+    "resources": [
+      {
+        "text": "lorem",
+        "href": ""
+      },
+      {
+        "text": "ipsum",
+        "href": ""
+      }
+    ],
+    "follow_us": [
+      {
+        "text": "github",
+        "href": ""
+      },
+      {
+        "text": "discord",
+        "href": ""
+      }
+    ],
+    "legal": [
+      {
+        "text": "privacy policy",
+        "href": ""
+      },
+      {
+        "text": "terms & conditions",
+        "href": ""
+      }
+    ]
+  },
+  "busAmenities": [
+    {
+      "value": "water bottle",
+      "label": "Water Bottle"
+    },
+    {
+      "value": "bites",
+      "label": "Bites"
+    },
+    {
+      "value": "blackets",
+      "label": "Blankets"
+    },
+    {
+      "value": "charging point",
+      "label": "Charging Point"
+    },
+    {
+      "value": "movie",
+      "label": "Movie"
+    },
+    {
+      "value": "toilet",
+      "label": "Toilet"
+    },
+    {
+      "value": "ac",
+      "label": "AC"
+    },
+    {
+      "value": "emergency contact number",
+      "label": "Emergency Contact Number"
+    }
+  ],
+  "busCategories": [
+    {
+      "value": "seater",
+      "label": "Seater"
+    },
+    {
+      "value": "sleeper",
+      "label": "Sleeper"
+    }
+  ],
+  "typeOptions": [
+    {
+      "value": "luxury",
+      "label": "Luxury"
+    },
+    {
+      "value": "semi-luxury",
+      "label": "Semi-luxury"
+    },
+    {
+      "value": "ordinary",
+      "label": "Ordinary"
+    }
+  ],
+  "locations":[
+    {
+      "name": "Moshi-Kilimanjaro"
+    },
+    {
+      "name": "Urafiki-Dar es Salaam"
+    },
+    {
+      "name": "Pangani-Tanga"
+    },
+    {
+      "name": "Tunduma-Mbeya"
+    }
+  ]
+}

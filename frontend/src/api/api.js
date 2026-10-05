@@ -1,0 +1,22 @@
+import axios from "axios";
+
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+
+const reserveAPI = async ({ method, route, params, data, validateStatus }) => {
+  const url = `${BASE_URL}${route}`;
+  // console.log(url)
+  const options = {
+    method,
+    url,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    params,
+    data,
+    validateStatus
+  };
+
+  const res = await axios(options);
+  return res.data;
+};
+export default reserveAPI;
